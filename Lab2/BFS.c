@@ -16,6 +16,7 @@ void enqueue(int data) {
 }
 
 
+
 int dequeue() {
    if(front == -1) {
       return -1;
@@ -34,7 +35,6 @@ int dequeue() {
 int isEmpty() {
    return front == -1 && front == rear;
 }
-
 
 void main() {
    int arr[5][5] = {{0,1,1,0,0},{1,0,1,1,0},{1,1,0,0,1},{0,1,0,0,1},{0,0,1,1,0}};
